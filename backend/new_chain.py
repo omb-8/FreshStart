@@ -4,7 +4,7 @@ from src.llm_connection import get_llm
 from src.prompt_templet import get_prompt
 from src.vector_database_loader import vector_database,get_embedding
 
-file = "vector_database_file"
+file = r"C:\Users\olivi\OneDrive\Documents\Undergrad. Research\ArgoBot\Custom-Question-Answering-Chatbot-using-Langchain-and-Gemini-AI\backend\vector_database_file"
 
 def get_chain():
     

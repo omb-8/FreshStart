@@ -2,6 +2,11 @@ from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.document_loaders.csv_loader import CSVLoader
 
+from langchain_community.embeddings.huggingface import HuggingFaceInstructEmbeddings
+
+def get_embedding():
+    embeddings = HuggingFaceInstructEmbeddings()
+    return embeddings
 
 file_location = "vector_database_file"
 data_location = "Custom Question-Answering Chatbot using Google Gemini and Langchain\data\question-answer.csv"

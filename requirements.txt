@@ -1,10 +1,10 @@
 transformers
-langchain
-langchain-core 
+langchain==0.3.4
+langchain-core==0.3.12
 langchain_google_genai
 sentence-transformers==2.2.2
-InstructorEmbedding
+InstructorEmbedding==1.01
 faiss-cpu
-langchain_community
+langchain_community==0.3.3
 streamlit
 python-dotenv
