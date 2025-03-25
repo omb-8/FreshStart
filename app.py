@@ -26,7 +26,7 @@ os.environ["GOOGLE_API_KEY"] = api_key
 
 # Initialize the Google Generative AI model
 gemini_embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-model = ChatGoogleGenerativeAI(model="gemini-1.0-pro", convert_system_message_to_human=True)
+model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", convert_system_message_to_human=True)
 
 # Load the document
 document_loader = PyPDFLoader(r"resources/22_studenthandbook-22-23_f2.pdf")
